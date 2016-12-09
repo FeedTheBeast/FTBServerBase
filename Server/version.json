@@ -1,1 +1,1 @@
-{ "forgeVersion": "%FORGEVERSION%", "mcVersion": "%MCVERSION%", "packVersion": "%PACKVERSION%", "packID": "%PACKSHORTNAME%", "xml": "modpacks" }
+{ "forgeVersion": "*FORGEVERSION*", "mcVersion": "*MCVERSION*", "packVersion": "*PACKVERSION*", "packID": "*PACKSHORTNAME*", "xml": "modpacks" }
