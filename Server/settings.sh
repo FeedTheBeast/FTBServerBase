@@ -10,7 +10,7 @@
 # Pack specific settings
 # Only edit this section if you know what you are doing
 
-export MCVER="1.10.2"
+export MCVER="*FORGEVERSION*"
 export JARFILE="minecraft_server.${MCVER}.jar"
 export LAUNCHWRAPPERVERSION="1.12"
 export LAUNCHWRAPPER="net/minecraft/launchwrapper/${LAUNCHWRAPPERVERSION}/launchwrapper-${LAUNCHWRAPPERVERSION}.jar"

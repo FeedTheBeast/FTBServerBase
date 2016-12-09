@@ -1,5 +1,5 @@
 rem Do not touch
-set MCVER=1.10.2
+set MCVER=*FORGEVERSION*
 set JARFILE=minecraft_server.%MCVER%.jar
 set LAUNCHWRAPPERVERSION=1.12
 set LAUNCHWRAPPER=net\minecraft\launchwrapper\%LAUNCHWRAPPERVERSION%\launchwrapper-%LAUNCHWRAPPERVERSION%.jar
