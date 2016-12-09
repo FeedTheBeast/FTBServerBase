@@ -1,1 +1,1 @@
-{ "forgeVersion": "2166", "mcVersion": "1.10.2", "packVersion": "1.3.3", "packID": "FTBInfinityLite110", "xml": "modpacks" }
+{ "forgeVersion": "2166", "mcVersion": "%MCVERSION%", "packVersion": "1.3.3", "packID": "FTBInfinityLite110", "xml": "modpacks" }
