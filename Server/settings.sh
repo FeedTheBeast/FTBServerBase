@@ -10,11 +10,11 @@
 # Pack specific settings
 # Only edit this section if you know what you are doing
 
-export MCVER="*FORGEVERSION*"
+export MCVER="*MCVERSION*"
 export JARFILE="minecraft_server.${MCVER}.jar"
 export LAUNCHWRAPPERVERSION="1.12"
 export LAUNCHWRAPPER="net/minecraft/launchwrapper/${LAUNCHWRAPPERVERSION}/launchwrapper-${LAUNCHWRAPPERVERSION}.jar"
-export FORGEJAR="FTBserver-1.10.2-12.18.2.2166-universal.jar"
+export FORGEJAR="*SERVERJAR*"
 
 ###################################################
 # Default arguments for JVM
