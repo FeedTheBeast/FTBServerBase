@@ -54,7 +54,7 @@ if %ERRORLEVEL% EQU 0 (
     exit /B
 )
 
-del /f /q autostart.stamp > nul 2>1
+del /f /q autostart.stamp > nul 2>&1
 
 :startserver
 echo Starting server
@@ -62,7 +62,7 @@ java -server -Xms%MIN_RAM% -Xmx%MAX_RAM% -XX:PermSize=%PERMGEN_SIZE% %JAVA_PARAM
 
 :server_loop
 if exist autostart.stamp (
-    del /f /q autostart.stamp > nul 2>1
+    del /f /q autostart.stamp > nul 2>&1
     echo If you want to completely stop the server process now, press Ctrl+C before the time is up!
     for /l %%i in (5,-1,1) do (
         echo Restarting server in %%i
