@@ -21,8 +21,6 @@ export FORGEJAR="*SERVERJAR*"
 
 ## Copy following lines into settings-local.sh to create local config file which overrides default settings given here
 export JAVACMD="java"
-export MIN_RAM="512M"        # -Xms
 export MAX_RAM="2048M"       # -Xmx
-export PERMGEN_SIZE="256M"   # -XX:PermSize
-export JAVA_PARAMETERS="-XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
+export JAVA_PARAMETERS="-XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=5 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
 

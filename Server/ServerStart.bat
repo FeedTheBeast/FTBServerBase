@@ -69,7 +69,7 @@ if exist autostart.stamp (
         choice /t 1 /d y > nul
     )
     echo Starting server now
-    java -server -Xms%MIN_RAM% -Xmx%MAX_RAM% -XX:PermSize=%PERMGEN_SIZE% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
+    java -server -Xmx%MAX_RAM% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
     echo Server process finished
     goto :server_loop
 )

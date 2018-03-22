@@ -25,7 +25,7 @@ eula_false() {
 
 # cleaner code 2
 start_server() {
-    "$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} -XX:PermSize=${PERMGEN_SIZE} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
+    "$JAVACMD" -server -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
 }
 
 # run install script if MC server or launchwrapper s missing
