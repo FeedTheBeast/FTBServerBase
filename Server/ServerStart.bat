@@ -58,7 +58,7 @@ del /f /q autostart.stamp > nul 2>&1
 
 :startserver
 echo Starting server
-java -server -Xms%MIN_RAM% -Xmx%MAX_RAM% -XX:PermSize=%PERMGEN_SIZE% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
+java -server -Xmx%MAX_RAM% -XX:PermSize=%PERMGEN_SIZE% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
 
 :server_loop
 if exist autostart.stamp (
